@@ -41,8 +41,8 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_nQ0t8HZiEemTj9UaNw0JPg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_nQ0t8nZiEemTj9UaNw0JPg" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_tYZhAHbiEemrh9yV5eWMwA">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_tYZhAXbiEemrh9yV5eWMwA" name="submitionValid" content="submitionValid" type="TYPE_VARIABLE" returnType="java.lang.Boolean">
-              <referencedElements xmi:type="process:Data" xmi:id="_vLDxcHbiEemrh9yV5eWMwA" name="submitionValid" dataType="_ZKOm3HZiEemTj9UaNw0JPg"/>
+            <leftOperand xmi:type="expression:Expression" xmi:id="_tYZhAXbiEemrh9yV5eWMwA" name="submissionValid" content="submissionValid" type="TYPE_VARIABLE" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:Data" xmi:id="_vLDxcHbiEemrh9yV5eWMwA" name="submissionValid" dataType="_ZKOm3HZiEemTj9UaNw0JPg"/>
             </leftOperand>
             <rightOperand xmi:type="expression:Expression" xmi:id="_tYZhAnbiEemrh9yV5eWMwA" name="review" content="review" type="TYPE_CONTRACT_INPUT" returnType="java.lang.Boolean">
               <referencedElements xmi:type="process:ContractInput" xmi:id="_vn43YHbiEemrh9yV5eWMwA" name="review" type="BOOLEAN">
@@ -66,7 +66,7 @@
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_ny7Ve3ZiEemTj9UaNw0JPg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:InclusiveGateway" xmi:id="_H7DvgHZjEemTj9UaNw0JPg" name="Is submition validated?" outgoing="_2D5EMHZjEemTj9UaNw0JPg _3BlbgHZjEemTj9UaNw0JPg" incoming="_9BI_oHZiEemTj9UaNw0JPg">
+        <elements xmi:type="process:InclusiveGateway" xmi:id="_H7DvgHZjEemTj9UaNw0JPg" name="Is submission validated?" outgoing="_2D5EMHZjEemTj9UaNw0JPg _3BlbgHZjEemTj9UaNw0JPg" incoming="_9BI_oHZiEemTj9UaNw0JPg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_9A7kQnZiEemTj9UaNw0JPg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_9A7kQXZiEemTj9UaNw0JPg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_9A7kQ3ZiEemTj9UaNw0JPg" name="" content="" returnTypeFixed="true"/>
@@ -77,7 +77,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_2DrBwnZjEemTj9UaNw0JPg" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <data xmi:type="process:Data" xmi:id="_Q-tuoHbiEemrh9yV5eWMwA" name="submitionValid" dataType="_ZKOm3HZiEemTj9UaNw0JPg">
+      <data xmi:type="process:Data" xmi:id="_Q-tuoHbiEemrh9yV5eWMwA" name="submissionValid" dataType="_ZKOm3HZiEemTj9UaNw0JPg">
         <defaultValue xmi:type="expression:Expression" xmi:id="_Q-tuoXbiEemrh9yV5eWMwA" content="" returnType="java.lang.Boolean"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_ZKOmxHZiEemTj9UaNw0JPg">
@@ -96,9 +96,9 @@
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_2D5EMHZjEemTj9UaNw0JPg" name="Yes" target="_2DpzoHZjEemTj9UaNw0JPg" source="_H7DvgHZjEemTj9UaNw0JPg">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_2D5rQHZjEemTj9UaNw0JPg"/>
-        <condition xmi:type="expression:Expression" xmi:id="_2D5rQXZjEemTj9UaNw0JPg" name="submitionValid" content="submitionValid" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true">
-          <referencedElements xmi:type="process:Data" xmi:id="_jecR8HblEemrh9yV5eWMwA" name="submitionValid" dataType="_ZKOm3HZiEemTj9UaNw0JPg">
-            <defaultValue xmi:type="expression:Expression" xmi:id="_jecR8XblEemrh9yV5eWMwA" content="" returnType="java.lang.Boolean"/>
+        <condition xmi:type="expression:Expression" xmi:id="_2D5rQXZjEemTj9UaNw0JPg" name="submissionValid" content="submissionValid" type="TYPE_CONDITION" returnType="java.lang.Boolean" returnTypeFixed="true">
+          <referencedElements xmi:type="process:Data" xmi:id="_OnZREHfWEem9S7buqHI10w" name="submissionValid" dataType="_ZKOm3HZiEemTj9UaNw0JPg">
+            <defaultValue xmi:type="expression:Expression" xmi:id="_OnZREXfWEem9S7buqHI10w" content="" returnType="java.lang.Boolean"/>
           </referencedElements>
         </condition>
       </connections>
