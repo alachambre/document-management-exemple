@@ -10,9 +10,6 @@ bin
 target/
 /build.properties
 
-#provided web widgets
-/web_widgets/pb*/
-
 #web component preferenes
 /web_widgets/.metadata
 /web_fragments/.metadata
@@ -26,7 +23,3 @@ target/
 
 #only used as user preferences
 /database_connectors_properties
-
-#gitignore migration
-node/
-node_modules/
